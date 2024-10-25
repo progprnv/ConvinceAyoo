@@ -3,25 +3,28 @@ import requests
 
 app = Flask("ConvinceAyoo")
 
-# Placeholder function for connecting to Ollama API
+# Function to connect to the Ollama API
 def get_opposing_reasons(user_query):
-    # Sample payload to send to Ollama (replace with actual API structure)
+    # Sample payload to send to Ollama
     payload = {
-        "model": "convince_ayo_model",
+        "model": "convince_ayo_model",  # Replace with your actual model name
         "input": user_query
     }
-    # Simulating Ollama API call
-    url = "https://api.ollama.ai/generate"
-    headers = {"Authorization": "Bearer YOUR_OLLAMA_API_KEY"}
+    
+    # Ollama API URL
+    url = "http://127.0.0.1:11434/generate"  # Ensure this matches the server URL
 
     try:
-        response = requests.post(url, json=payload, headers=headers)
+        response = requests.post(url, json=payload)
         response.raise_for_status()
+        
         # Extracting the response text from Ollama
         result = response.json().get("choices")[0].get("text", "Could not generate response.")
         return result
+    except requests.exceptions.HTTPError as http_err:
+        return f"HTTP error occurred: {http_err}"
     except Exception as e:
-        return str(e)
+        return f"An error occurred: {str(e)}"
 
 @app.route("/", methods=["GET", "POST"])
 def index():
