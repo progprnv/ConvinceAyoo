@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request 
 import requests
 
 app = Flask("ConvinceAyoo")
@@ -16,7 +16,7 @@ def get_opposing_reasons(user_query):
 
     try:
         response = requests.post(url, json=payload)
-        response.raise_for_status()
+        response.raise_for_status()  # Raise an error for bad responses
         
         # Extracting the response text from Ollama
         result = response.json().get("choices")[0].get("text", "Could not generate response.")
