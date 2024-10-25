@@ -12,7 +12,7 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 def get_opposing_reasons(user_query):
     try:
         # Construct the full query with the specified phrase
-        full_query = f"give in 5 bulleted points, negative and roasting manner to take up my mind for my question {user_query}"
+        full_query = f"give in 5 bulleted points, negative and roasting manner to take up my mind for my question (just say the answer only and in 50 words) {user_query}"
         
         # Generate content using the Gemini model
         response = model.generate_content(full_query)
