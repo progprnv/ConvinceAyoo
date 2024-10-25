@@ -1,36 +1,19 @@
-from flask import Flask, render_template, request 
-import requests
+from flask import Flask, render_template, request
+import google.generativeai as genai
 
+# Initialize the Flask application
 app = Flask("ConvinceAyoo")
+
+# Configure the Gemini API with your API key
+genai.configure(api_key="AIzaSyDpujbyrAZ1I_hniPtJNZwnMClGSjfLj-A")
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Function to connect to the Gemini API
 def get_opposing_reasons(user_query):
-    # Sample payload to send to Gemini API
-    payload = {
-        "input": user_query,
-        "parameters": {  # Adjust parameters based on Gemini API requirements
-            "model": "gemini_model",  # Replace with your actual model name
-            "max_tokens": 150  # Example parameter; adjust as needed
-        }
-    }
-    
-    # Gemini API URL (replace with the correct endpoint)
-    url = "https://api.yourgeminiendpoint.com/v1/generate"  # Ensure this matches the Gemini API URL
-
-    headers = {
-        "Authorization": "Bearer AIzaSyDpujbyrAZ1I_hniPtJNZwnMClGSjfLj-A",  # Your Gemini API key
-        "Content-Type": "application/json"
-    }
-
     try:
-        response = requests.post(url, json=payload, headers=headers)
-        response.raise_for_status()  # Raise an error for bad responses
-        
-        # Extracting the response text from Gemini
-        result = response.json().get("choices")[0].get("text", "Could not generate response.")
-        return result
-    except requests.exceptions.HTTPError as http_err:
-        return f"HTTP error occurred: {http_err}"
+        # Generate content using the Gemini model
+        response = model.generate_content(user_query)
+        return response.text  # Return the generated response text
     except Exception as e:
         return f"An error occurred: {str(e)}"
 
@@ -40,7 +23,7 @@ def index():
         # Retrieve the user query from the form
         user_query = request.form.get("query")
         if user_query:
-            # Get opposing arguments from Gemini
+            # Get opposing arguments from the Gemini API
             opposing_reasons = get_opposing_reasons(user_query)
             return render_template("index.html", opposing_reasons=opposing_reasons)
         else:
