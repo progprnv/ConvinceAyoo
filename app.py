@@ -3,22 +3,30 @@ import requests
 
 app = Flask("ConvinceAyoo")
 
-# Function to connect to the Ollama API
+# Function to connect to the Gemini API
 def get_opposing_reasons(user_query):
-    # Sample payload to send to Ollama
+    # Sample payload to send to Gemini API
     payload = {
-        "model": "convince_ayo_model",  # Replace with your actual model name
-        "input": user_query
+        "input": user_query,
+        "parameters": {  # Adjust parameters based on Gemini API requirements
+            "model": "gemini_model",  # Replace with your actual model name
+            "max_tokens": 150  # Example parameter; adjust as needed
+        }
     }
     
-    # Ollama API URL
-    url = "http://127.0.0.1:11434/generate"  # Ensure this matches the server URL
+    # Gemini API URL (replace with the correct endpoint)
+    url = "https://api.yourgeminiendpoint.com/v1/generate"  # Ensure this matches the Gemini API URL
+
+    headers = {
+        "Authorization": "Bearer AIzaSyDpujbyrAZ1I_hniPtJNZwnMClGSjfLj-A",  # Your Gemini API key
+        "Content-Type": "application/json"
+    }
 
     try:
-        response = requests.post(url, json=payload)
+        response = requests.post(url, json=payload, headers=headers)
         response.raise_for_status()  # Raise an error for bad responses
         
-        # Extracting the response text from Ollama
+        # Extracting the response text from Gemini
         result = response.json().get("choices")[0].get("text", "Could not generate response.")
         return result
     except requests.exceptions.HTTPError as http_err:
@@ -32,7 +40,7 @@ def index():
         # Retrieve the user query from the form
         user_query = request.form.get("query")
         if user_query:
-            # Get opposing arguments from Ollama
+            # Get opposing arguments from Gemini
             opposing_reasons = get_opposing_reasons(user_query)
             return render_template("index.html", opposing_reasons=opposing_reasons)
         else:
