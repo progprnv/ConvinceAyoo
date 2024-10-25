@@ -1,19 +1,19 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# Convince Ayoo 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Convincing Scripters
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Pranav Jayan - SCMS School Of Engineering And Technology
+- Member 2: Janish Saji - SCMS School Of Engineering And Technology
+- Member 3: Roshan Subash - SCMS School Of Engineering And Technology 
 
 ### Project Description
-[2-3 lines about what your project does]
+*ConvinceAyo* is a decision-making assistant that provides counter-persuasive arguments for user-entered decisions. Enter a query, and it will list reasons opposing the decision, helping you consider all perspectives before proceeding. Powered by Flask and Ollama.
 
 ### The Problem (that doesn't exist)
 [What ridiculous problem are you solving?]
