@@ -11,8 +11,11 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 # Function to connect to the Gemini API
 def get_opposing_reasons(user_query):
     try:
+        # Construct the full query with the specified phrase
+        full_query = f"give in 5 bulleted points, negative and roasting manner to take up my mind for my question {user_query}"
+        
         # Generate content using the Gemini model
-        response = model.generate_content(user_query)
+        response = model.generate_content(full_query)
         return response.text  # Return the generated response text
     except Exception as e:
         return f"An error occurred: {str(e)}"
