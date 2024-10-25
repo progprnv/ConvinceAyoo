@@ -1,7 +1,7 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request
 import requests
 
-app = Flask(__name__) 
+app = Flask("ConvinceAyoo")
 
 # Placeholder function for connecting to Ollama API
 def get_opposing_reasons(user_query):
@@ -36,5 +36,5 @@ def index():
             return render_template("index.html", error="Please enter a valid query.")
     return render_template("index.html")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     app.run(debug=True)
