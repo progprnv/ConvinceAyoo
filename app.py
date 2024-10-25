@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 import requests
 
-app = Flask(__name__)
+app = Flask(__name__) 
 
 # Placeholder function for connecting to Ollama API
 def get_opposing_reasons(user_query):
