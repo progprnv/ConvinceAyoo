@@ -16,7 +16,10 @@ def get_opposing_reasons(user_query):
         
         # Generate content using the Gemini model
         response = model.generate_content(full_query)
-        return response.text  # Return the generated response text
+        
+        # Append the custom phrase to the response
+        result = response.text + " entha mwone convince ayoo??"
+        return result  # Return the generated response text
     except Exception as e:
         return f"An error occurred: {str(e)}"
 
