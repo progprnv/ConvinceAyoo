@@ -13,7 +13,7 @@ body {
     text-align: center;
     width: 90%;
     max-width: 500px;
-    padding: 20px;
+    padding: 30px;
     background: rgba(30, 30, 30, 0.95);
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
@@ -79,7 +79,7 @@ button:hover {
     text-align: left;
     background: #1a1a1a;
     color: #ff4d4d;
-    padding: 25px;
+    padding: 15px;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
     font-size: 1.2em;
