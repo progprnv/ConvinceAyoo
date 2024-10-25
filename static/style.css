@@ -40,7 +40,7 @@ input[type="text"] {
     padding: 12px;
     margin-bottom: 15px;
     border: none;
-    border-radius: 0; /* Removes rounded corners */
+    border-radius: 0;
     font-size: 1em;
     background: #333;
     color: #ff4d4d;
@@ -54,14 +54,13 @@ input[type="text"]:focus {
     background: #222;
 }
 
-
 button {
-    width: 100px; /* Make width and height equal to create a square */
+    width: 100px;
     height: 50px;
     color: #ff4d4d;
-    background-color: #000; /* Black background */
-    border: 2px solid #ff4d4d; /* Red border */
-    border-radius: 0; /* No rounded corners */
+    background-color: #000;
+    border: 2px solid #ff4d4d;
+    border-radius: 0;
     font-size: 1.1em;
     cursor: pointer;
     transition: background 0.3s, transform 0.3s;
@@ -78,15 +77,14 @@ button:hover {
 .response {
     margin-top: 20px;
     text-align: left;
-    background: #1a1a1a; /* Darker background */
-    color: #ff4d4d; /* Red text */
-    padding: 25px; /* Increased padding for more space inside the box */
-    border-radius: 15px; /* More rounded corners */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Stronger shadow for a lifted look */
-    font-size: 1.2em; /* Slightly larger font size */
-    line-height: 1.6; /* Improved readability */
+    background: #1a1a1a;
+    color: #ff4d4d;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    font-size: 1.2em;
+    line-height: 1.6;
 }
-
 
 .error {
     color: #ff4d4d;
