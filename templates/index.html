@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ConvinceAyoo - Rethink Your Decisions</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>ConvinceAyoo</h1>
-        <p>Enter a decision you're considering, and we'll give you reasons to think twice.</p>
+        <h1>🎉 ConvinceAyoo 🎉</h1>
+        <p>Got a decision? Let us help you think twice!</p>
         
         <form action="/" method="POST">
             <input type="text" name="query" placeholder="What decision are you considering?" required>
-            <button type="submit">Convince Me</button>
+            <button type="submit">💡 Convince Me!</button>
         </form>
 
         {% if opposing_reasons %}
