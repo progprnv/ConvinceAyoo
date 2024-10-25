@@ -1,12 +1,12 @@
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(45deg, #ff6f61, #6a5acd);
-    color: #fff;
+    background: linear-gradient(45deg, #1a1a1a, #000000);
+    color: #ff4d4d;
 }
 
 .container {
@@ -14,21 +14,21 @@ body {
     width: 90%;
     max-width: 500px;
     padding: 40px;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 30px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    background: rgba(30, 30, 30, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
-    color: #ff4081;
+    color: #ff4d4d;
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-bottom: 25px;
-    color: #333;
+    color: #e6e6e6;
 }
 
 form {
@@ -37,50 +37,58 @@ form {
 
 input[type="text"] {
     width: 100%;
-    padding: 15px;
+    padding: 12px;
     margin-bottom: 15px;
     border: none;
-    border-radius: 30px;
+    border-radius: 0; /* Removes rounded corners */
     font-size: 1em;
-    background: #f0f0f0;
-    color: #333;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: #333;
+    color: #ff4d4d;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
 }
 
 input[type="text"]:focus {
     outline: none;
-    box-shadow: 0 0 10px rgba(255, 105, 180, 0.7);
-    background: #fff;
+    box-shadow: 0 0 10px rgba(255, 77, 77, 0.8);
+    background: #222;
 }
 
+
 button {
-    padding: 15px 25px;
-    color: #fff;
-    background: linear-gradient(45deg, #ff4081, #ffeb3b);
-    border: none;
-    border-radius: 30px;
+    width: 100px; /* Make width and height equal to create a square */
+    height: 50px;
+    color: #ff4d4d;
+    background-color: #000; /* Black background */
+    border: 2px solid #ff4d4d; /* Red border */
+    border-radius: 0; /* No rounded corners */
     font-size: 1.1em;
     cursor: pointer;
     transition: background 0.3s, transform 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button:hover {
-    background: linear-gradient(45deg, #ffeb3b, #ff4081);
+    background-color: #222;
     transform: scale(1.05);
 }
 
 .response {
     margin-top: 20px;
     text-align: left;
-    background: #ffeb3b;
-    color: #333;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: #1a1a1a; /* Darker background */
+    color: #ff4d4d; /* Red text */
+    padding: 25px; /* Increased padding for more space inside the box */
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Stronger shadow for a lifted look */
+    font-size: 1.2em; /* Slightly larger font size */
+    line-height: 1.6; /* Improved readability */
 }
 
+
 .error {
-    color: #d9534f;
+    color: #ff4d4d;
     margin-top: 20px;
 }
