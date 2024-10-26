@@ -33,10 +33,28 @@ For Software:
 ### Implementation
 For Software:
 # Installation
-[commands]
+# ConvinceAyoo Installation Guide
+
+```bash
+# Clone the Repo
+git clone https://github.com/progprnv/ConvinceAyoo.git && cd ConvinceAyoo
+
+# Set Up Virtual Environment
+python3 -m venv env
+source env/bin/activate  # For Windows: .\env\Scripts\activate
+
+# Install Dependencies (optional, not needed)
+pip install -r requirements.txt
+
+```
 
 # Run
-[commands]
+```bash
+# Run the App
+python app.py
+
+# Navigate http://127.0.0.1:5000 on any browser
+```
 
 ### Project Documentation
 For Software:
