@@ -16,10 +16,10 @@
 *ConvinceAyo* is a decision-making assistant that provides counter-persuasive arguments for user-entered decisions. Enter a query, and it will list reasons opposing the decision, helping you consider all perspectives before proceeding. Powered by Flask and Ollama.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Decision-making can be overwhelming, especially when we don't have enough negative reasons to steer us in an opposite direction. People often lack a good, harsh roast for their own ideas, which could help them think more critically before taking the plunge. With all the positive influences out there, where’s the blunt, unapologetic critique when you need it most?
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Introducing ConvinceAyoo – the tool you never knew you needed to provide you with brutally honest, sarcasm-laden arguments against your own ideas. Simply type in your decision, and ConvinceAyoo will deliver a compelling list of reasons to make you think twice. Perfect for anyone looking to roast their own ambitions before fully committing – because who doesn’t love a little self-sabotage humor?
 
 ## Technical Details
 ### Technologies/Components Used
