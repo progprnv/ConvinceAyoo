@@ -55,7 +55,7 @@ For Software:
 *Produces an output of Query 3
 
 
-# Diagrams
+# Working
 
 
 ![wf](https://github.com/user-attachments/assets/27d4c619-f51c-446c-b7db-d644a3b5b220)
@@ -69,13 +69,12 @@ For Software:
 [Add your demo video link here]
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
+
 
 ## Team Contributions
-- Pranav Jayan: [Specific contributions
-- Janish Saji: [Specific contributions]
-- Roshan Subhash: [Specific contributions]
+- Pranav Jayan: Backend + Frontend
+- Janish Saji: Backend + Frontend
+- Roshan Subhash: Frontend + Designing section
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
