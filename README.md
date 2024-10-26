@@ -42,6 +42,21 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
+![Working of ConvinceAyoo](https://github.com/user-attachments/assets/52b250e9-772f-44d2-94c6-5e85725cddab)
+
+*Produces an output of Query 1 : Here it will produce output in a humorous and opposing way to make someone to take that decision but at the same time it will make a person to rethink about this wish/decision.
+
+![Working of ConvinceAyoo 2](https://github.com/user-attachments/assets/f5d962c7-d409-49d9-abae-d9c3dbf2ba53)
+
+*Produces an output of Query 2
+
+![Working of ConvinceAyoo 3](https://github.com/user-attachments/assets/af8fe33c-649e-45d7-8268-eadf38476919)
+
+*Produces an output of Query 3
+
+
+
+# Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
 
