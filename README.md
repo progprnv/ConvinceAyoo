@@ -41,7 +41,7 @@ For Software:
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
+# Screenshots
 ![Working of ConvinceAyoo](https://github.com/user-attachments/assets/52b250e9-772f-44d2-94c6-5e85725cddab)
 
 *Produces an output of Query 1 : Here it will produce output in a humorous and opposing way to make someone to take that decision but at the same time it will make a person to rethink about this wish/decision.
