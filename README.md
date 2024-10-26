@@ -57,16 +57,8 @@ For Software:
 
 # Diagrams
 
-+---------------------+        +------------------+        +---------------+
-|   Client-Side       |  <-->  |  Flask Backend   |  <-->  |  Decision     |
-|   (HTML/CSS/JS)     |        |  (Routing, Logic)|        |  Processing   |
-+---------------------+        +------------------+        +---------------+
-        |                            |                        |
-        v                            v                        v
-+---------------+              +------------+             +-------------+
-| AJAX Requests |  <-------->  | Form Handling| <-------- | Ollama      |
-| (User Input)  |              +-------------+             | Integration|
-+---------------+                                         +-------------+
+
+![wf](https://github.com/user-attachments/assets/27d4c619-f51c-446c-b7db-d644a3b5b220)
 
 
 
