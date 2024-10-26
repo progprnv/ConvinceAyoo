@@ -66,8 +66,12 @@ For Software:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+
+
+https://github.com/user-attachments/assets/7a7b4602-4b9b-4a2a-8785-79e950bcac7d
+
+
+*Here we queried would ai take up jobs and see what ConvinceAyoo returns!!!
 
 
 
