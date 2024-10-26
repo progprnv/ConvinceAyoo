@@ -46,7 +46,7 @@ source env/bin/activate  # For Windows: .\env\Scripts\activate
 # Install Dependencies (optional, not needed)
 pip install -r requirements.txt
 
-# Make sure to install needed modules:
+# Make sure to install important module:
 pip install google-generativeai
 ```
 
@@ -55,7 +55,8 @@ pip install google-generativeai
 # Run the App
 python app.py
 
-# Navigate http://127.0.0.1:5000 on any browser
+# Navigate to this from any browser
+http://127.0.0.1:5000
 ```
 
 ### Project Documentation
