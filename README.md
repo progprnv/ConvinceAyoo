@@ -46,6 +46,8 @@ source env/bin/activate  # For Windows: .\env\Scripts\activate
 # Install Dependencies (optional, not needed)
 pip install -r requirements.txt
 
+# Make sure to install needed modules:
+pip install google-generativeai
 ```
 
 # Run
