@@ -61,15 +61,15 @@ http://127.0.0.1:5000
 
 
 # Screenshots
-![Working of ConvinceAyoo](https://github.com/user-attachments/assets/52b250e9-772f-44d2-94c6-5e85725cddab)
+![working first query](https://github.com/user-attachments/assets/e1e4f748-0395-4aef-8295-8de801579b63)
 
-*Produces an output of Query 1 : Here it will produce output in a humorous and opposing way to make someone to take that decision but at the same time it will make a person to rethink about this wish/decision.
+*Produces an output of Query 1 : Here it will produce output in a humorous and opposing way to make someone to take that decision but at the same time it will make a person to re-think about this wish/decision.
 
 ![working 2](https://github.com/user-attachments/assets/8bf2b7cc-7dfd-4bd3-acdb-dd19f53ebf79)
 
 *Produces an output of Query 2
 
-![working 3](https://github.com/user-attachments/assets/6d742d1a-f93d-40a0-8356-890dd6aebef5)
+![image](https://github.com/user-attachments/assets/c9adb73b-ea4f-42ce-ae41-f86bff77aed1)
 
 *Produces an output of Query 3
 
