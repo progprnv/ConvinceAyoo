@@ -10,7 +10,7 @@
 ### Team Members
 - Team Lead: Pranav Jayan - SCMS School Of Engineering And Technology
 - Member 2: Janish Saji - SCMS School Of Engineering And Technology
-- Member 3: Roshan Subash - SCMS School Of Engineering And Technology 
+- Member 3: Roshan Subhash - SCMS School Of Engineering And Technology 
 
 ### Project Description
 *ConvinceAyo* is a decision-making assistant that provides counter-persuasive arguments for user-entered decisions. Enter a query, and it will list reasons opposing the decision, helping you consider all perspectives before proceeding. Powered by Flask and Ollama.
@@ -63,22 +63,6 @@ For Software:
 
 
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
@@ -89,9 +73,9 @@ For Software:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Pranav Jayan: [Specific contributions
+- Janish Saji: [Specific contributions]
+- Roshan Subhash: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
