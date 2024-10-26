@@ -24,15 +24,11 @@ Introducing ConvinceAyoo – the tool you never knew you needed to provide you w
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Python,HTML,CSS
+- Flask
+- Google Generative AI
+- Git
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
