@@ -46,11 +46,11 @@ For Software:
 
 *Produces an output of Query 1 : Here it will produce output in a humorous and opposing way to make someone to take that decision but at the same time it will make a person to rethink about this wish/decision.
 
-![Working of ConvinceAyoo 2](https://github.com/user-attachments/assets/f5d962c7-d409-49d9-abae-d9c3dbf2ba53)
+![working 2](https://github.com/user-attachments/assets/8bf2b7cc-7dfd-4bd3-acdb-dd19f53ebf79)
 
 *Produces an output of Query 2
 
-![Working of ConvinceAyoo 3](https://github.com/user-attachments/assets/af8fe33c-649e-45d7-8268-eadf38476919)
+![working 3](https://github.com/user-attachments/assets/6d742d1a-f93d-40a0-8356-890dd6aebef5)
 
 *Produces an output of Query 3
 
