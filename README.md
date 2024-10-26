@@ -59,8 +59,6 @@ python app.py
 http://127.0.0.1:5000
 ```
 
-### Project Documentation
-For Software:
 
 # Screenshots
 ![Working of ConvinceAyoo](https://github.com/user-attachments/assets/52b250e9-772f-44d2-94c6-5e85725cddab)
