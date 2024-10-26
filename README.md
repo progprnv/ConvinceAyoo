@@ -52,10 +52,20 @@ For Software:
 *Add caption explaining what this shows*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
 
-For Hardware:
++---------------------+        +------------------+        +---------------+
+|   Client-Side       |  <-->  |  Flask Backend   |  <-->  |  Decision     |
+|   (HTML/CSS/JS)     |        |  (Routing, Logic)|        |  Processing   |
++---------------------+        +------------------+        +---------------+
+        |                            |                        |
+        v                            v                        v
++---------------+              +------------+             +-------------+
+| AJAX Requests |  <-------->  | Form Handling| <-------- | Ollama      |
+| (User Input)  |              +-------------+             | Integration|
++---------------+                                         +-------------+
+
+
+
 
 # Schematic & Circuit
 ![Circuit](Add your circuit diagram here)
