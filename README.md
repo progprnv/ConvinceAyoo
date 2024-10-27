@@ -73,6 +73,10 @@ http://127.0.0.1:5000
 
 *Produces an output of Query 3
 
+# More Examples
+![query 1](https://github.com/user-attachments/assets/832e6c1e-6675-4815-8a4b-8b4e289542e6)
+ (We can input any query! No matter what it means)
+
 
 # Working
 
