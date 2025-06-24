@@ -5,7 +5,7 @@ import google.generativeai as genai
 app = Flask("ConvinceAyoo")
 
 # Configure the Gemini API with your API key
-genai.configure(api_key="AIzaSyDpujbyrAZ1I_hniPtJNZwnMClGSjfLj-A")
+genai.configure(api_key="your-api-key-here")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Function to connect to the Gemini API
